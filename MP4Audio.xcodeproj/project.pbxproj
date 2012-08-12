@@ -7,9 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA04436915D846F20028B5C4 /* ANMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04432A15D846F20028B5C4 /* ANMovie.m */; };
+		FA04436A15D846F20028B5C4 /* ANFullAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04432D15D846F20028B5C4 /* ANFullAtom.m */; };
+		FA04436B15D846F20028B5C4 /* ANMovieAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04432F15D846F20028B5C4 /* ANMovieAtom.m */; };
+		FA04436C15D846F20028B5C4 /* ANMovieAtomGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04433115D846F20028B5C4 /* ANMovieAtomGroup.m */; };
+		FA04436D15D846F20028B5C4 /* ANQTAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04433415D846F20028B5C4 /* ANQTAtom.m */; };
+		FA04436E15D846F20028B5C4 /* ANQTAtomContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04433615D846F20028B5C4 /* ANQTAtomContainer.m */; };
+		FA04436F15D846F20028B5C4 /* ANDataHandlerReference.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04433915D846F20028B5C4 /* ANDataHandlerReference.m */; };
+		FA04437015D846F20028B5C4 /* ANTrackAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04433B15D846F20028B5C4 /* ANTrackAtom.m */; };
+		FA04437115D846F20028B5C4 /* ANTrackHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04433D15D846F20028B5C4 /* ANTrackHeader.m */; };
+		FA04437215D846F20028B5C4 /* ANChunkOffset64Atom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434015D846F20028B5C4 /* ANChunkOffset64Atom.m */; };
+		FA04437315D846F20028B5C4 /* ANChunkOffsetAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434215D846F20028B5C4 /* ANChunkOffsetAtom.m */; };
+		FA04437415D846F20028B5C4 /* ANSampleDescriptionAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434415D846F20028B5C4 /* ANSampleDescriptionAtom.m */; };
+		FA04437515D846F20028B5C4 /* ANSampleSizeAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434615D846F20028B5C4 /* ANSampleSizeAtom.m */; };
+		FA04437615D846F20028B5C4 /* ANSampleTableAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434815D846F20028B5C4 /* ANSampleTableAtom.m */; };
+		FA04437715D846F20028B5C4 /* ANSampleToChunkAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434A15D846F20028B5C4 /* ANSampleToChunkAtom.m */; };
+		FA04437815D846F20028B5C4 /* ANSampleToChunkEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434C15D846F20028B5C4 /* ANSampleToChunkEntry.m */; };
+		FA04437915D846F20028B5C4 /* ANMP4ASampleDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04434F15D846F20028B5C4 /* ANMP4ASampleDescription.m */; };
+		FA04437A15D846F20028B5C4 /* ANSampleDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435115D846F20028B5C4 /* ANSampleDescription.m */; };
+		FA04437B15D846F20028B5C4 /* ANEncodingAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435415D846F20028B5C4 /* ANEncodingAtom.m */; };
+		FA04437C15D846F20028B5C4 /* ANEncodingAtomGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435615D846F20028B5C4 /* ANEncodingAtomGroup.m */; };
+		FA04437D15D846F20028B5C4 /* ANEncodingFullAtom.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435815D846F20028B5C4 /* ANEncodingFullAtom.m */; };
+		FA04437E15D846F20028B5C4 /* ANEncodingFullAtomGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435A15D846F20028B5C4 /* ANEncodingFullAtomGroup.m */; };
+		FA04437F15D846F20028B5C4 /* ANMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435D15D846F20028B5C4 /* ANMetadata.m */; };
+		FA04438015D846F20028B5C4 /* ANMetadataImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04435F15D846F20028B5C4 /* ANMetadataImage.m */; };
+		FA04438115D846F20028B5C4 /* ANMetadataTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04436115D846F20028B5C4 /* ANMetadataTrack.m */; };
+		FA04438215D846F20028B5C4 /* ANAtomReader.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04436415D846F20028B5C4 /* ANAtomReader.m */; };
+		FA04438315D846F20028B5C4 /* ANMovieStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04436615D846F20028B5C4 /* ANMovieStore.m */; };
+		FA04438415D846F20028B5C4 /* ANMovieStoreFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FA04436815D846F20028B5C4 /* ANMovieStoreFile.m */; };
 		FA7A642C15D5B3A100456601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7A642B15D5B3A100456601 /* Foundation.framework */; };
 		FA7A642F15D5B3A100456601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7A642E15D5B3A100456601 /* main.m */; };
 		FA7A643315D5B3A100456601 /* MP4Audio.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA7A643215D5B3A100456601 /* MP4Audio.1 */; };
+		FAAB4BA515D6E62E00470078 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB4BA315D6E62E00470078 /* AudioToolbox.framework */; };
+		FAAB4BA615D6E62E00470078 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAB4BA415D6E62E00470078 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +56,69 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA04432915D846F20028B5C4 /* ANMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMovie.h; sourceTree = "<group>"; };
+		FA04432A15D846F20028B5C4 /* ANMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMovie.m; sourceTree = "<group>"; };
+		FA04432C15D846F20028B5C4 /* ANFullAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANFullAtom.h; sourceTree = "<group>"; };
+		FA04432D15D846F20028B5C4 /* ANFullAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANFullAtom.m; sourceTree = "<group>"; };
+		FA04432E15D846F20028B5C4 /* ANMovieAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMovieAtom.h; sourceTree = "<group>"; };
+		FA04432F15D846F20028B5C4 /* ANMovieAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMovieAtom.m; sourceTree = "<group>"; };
+		FA04433015D846F20028B5C4 /* ANMovieAtomGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMovieAtomGroup.h; sourceTree = "<group>"; };
+		FA04433115D846F20028B5C4 /* ANMovieAtomGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMovieAtomGroup.m; sourceTree = "<group>"; };
+		FA04433315D846F20028B5C4 /* ANQTAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANQTAtom.h; sourceTree = "<group>"; };
+		FA04433415D846F20028B5C4 /* ANQTAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANQTAtom.m; sourceTree = "<group>"; };
+		FA04433515D846F20028B5C4 /* ANQTAtomContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANQTAtomContainer.h; sourceTree = "<group>"; };
+		FA04433615D846F20028B5C4 /* ANQTAtomContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANQTAtomContainer.m; sourceTree = "<group>"; };
+		FA04433815D846F20028B5C4 /* ANDataHandlerReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANDataHandlerReference.h; sourceTree = "<group>"; };
+		FA04433915D846F20028B5C4 /* ANDataHandlerReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANDataHandlerReference.m; sourceTree = "<group>"; };
+		FA04433A15D846F20028B5C4 /* ANTrackAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTrackAtom.h; sourceTree = "<group>"; };
+		FA04433B15D846F20028B5C4 /* ANTrackAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTrackAtom.m; sourceTree = "<group>"; };
+		FA04433C15D846F20028B5C4 /* ANTrackHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTrackHeader.h; sourceTree = "<group>"; };
+		FA04433D15D846F20028B5C4 /* ANTrackHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTrackHeader.m; sourceTree = "<group>"; };
+		FA04433F15D846F20028B5C4 /* ANChunkOffset64Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANChunkOffset64Atom.h; sourceTree = "<group>"; };
+		FA04434015D846F20028B5C4 /* ANChunkOffset64Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANChunkOffset64Atom.m; sourceTree = "<group>"; };
+		FA04434115D846F20028B5C4 /* ANChunkOffsetAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANChunkOffsetAtom.h; sourceTree = "<group>"; };
+		FA04434215D846F20028B5C4 /* ANChunkOffsetAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANChunkOffsetAtom.m; sourceTree = "<group>"; };
+		FA04434315D846F20028B5C4 /* ANSampleDescriptionAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSampleDescriptionAtom.h; sourceTree = "<group>"; };
+		FA04434415D846F20028B5C4 /* ANSampleDescriptionAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSampleDescriptionAtom.m; sourceTree = "<group>"; };
+		FA04434515D846F20028B5C4 /* ANSampleSizeAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSampleSizeAtom.h; sourceTree = "<group>"; };
+		FA04434615D846F20028B5C4 /* ANSampleSizeAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSampleSizeAtom.m; sourceTree = "<group>"; };
+		FA04434715D846F20028B5C4 /* ANSampleTableAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSampleTableAtom.h; sourceTree = "<group>"; };
+		FA04434815D846F20028B5C4 /* ANSampleTableAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSampleTableAtom.m; sourceTree = "<group>"; };
+		FA04434915D846F20028B5C4 /* ANSampleToChunkAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSampleToChunkAtom.h; sourceTree = "<group>"; };
+		FA04434A15D846F20028B5C4 /* ANSampleToChunkAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSampleToChunkAtom.m; sourceTree = "<group>"; };
+		FA04434B15D846F20028B5C4 /* ANSampleToChunkEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSampleToChunkEntry.h; sourceTree = "<group>"; };
+		FA04434C15D846F20028B5C4 /* ANSampleToChunkEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSampleToChunkEntry.m; sourceTree = "<group>"; };
+		FA04434E15D846F20028B5C4 /* ANMP4ASampleDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMP4ASampleDescription.h; sourceTree = "<group>"; };
+		FA04434F15D846F20028B5C4 /* ANMP4ASampleDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMP4ASampleDescription.m; sourceTree = "<group>"; };
+		FA04435015D846F20028B5C4 /* ANSampleDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSampleDescription.h; sourceTree = "<group>"; };
+		FA04435115D846F20028B5C4 /* ANSampleDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSampleDescription.m; sourceTree = "<group>"; };
+		FA04435315D846F20028B5C4 /* ANEncodingAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEncodingAtom.h; sourceTree = "<group>"; };
+		FA04435415D846F20028B5C4 /* ANEncodingAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEncodingAtom.m; sourceTree = "<group>"; };
+		FA04435515D846F20028B5C4 /* ANEncodingAtomGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEncodingAtomGroup.h; sourceTree = "<group>"; };
+		FA04435615D846F20028B5C4 /* ANEncodingAtomGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEncodingAtomGroup.m; sourceTree = "<group>"; };
+		FA04435715D846F20028B5C4 /* ANEncodingFullAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEncodingFullAtom.h; sourceTree = "<group>"; };
+		FA04435815D846F20028B5C4 /* ANEncodingFullAtom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEncodingFullAtom.m; sourceTree = "<group>"; };
+		FA04435915D846F20028B5C4 /* ANEncodingFullAtomGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEncodingFullAtomGroup.h; sourceTree = "<group>"; };
+		FA04435A15D846F20028B5C4 /* ANEncodingFullAtomGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEncodingFullAtomGroup.m; sourceTree = "<group>"; };
+		FA04435C15D846F20028B5C4 /* ANMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMetadata.h; sourceTree = "<group>"; };
+		FA04435D15D846F20028B5C4 /* ANMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMetadata.m; sourceTree = "<group>"; };
+		FA04435E15D846F20028B5C4 /* ANMetadataImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMetadataImage.h; sourceTree = "<group>"; };
+		FA04435F15D846F20028B5C4 /* ANMetadataImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMetadataImage.m; sourceTree = "<group>"; };
+		FA04436015D846F20028B5C4 /* ANMetadataTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMetadataTrack.h; sourceTree = "<group>"; };
+		FA04436115D846F20028B5C4 /* ANMetadataTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMetadataTrack.m; sourceTree = "<group>"; };
+		FA04436315D846F20028B5C4 /* ANAtomReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANAtomReader.h; sourceTree = "<group>"; };
+		FA04436415D846F20028B5C4 /* ANAtomReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANAtomReader.m; sourceTree = "<group>"; };
+		FA04436515D846F20028B5C4 /* ANMovieStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMovieStore.h; sourceTree = "<group>"; };
+		FA04436615D846F20028B5C4 /* ANMovieStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMovieStore.m; sourceTree = "<group>"; };
+		FA04436715D846F20028B5C4 /* ANMovieStoreFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANMovieStoreFile.h; sourceTree = "<group>"; };
+		FA04436815D846F20028B5C4 /* ANMovieStoreFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANMovieStoreFile.m; sourceTree = "<group>"; };
 		FA7A642715D5B3A100456601 /* MP4Audio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MP4Audio; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7A642B15D5B3A100456601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA7A642E15D5B3A100456601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA7A643115D5B3A100456601 /* MP4Audio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MP4Audio-Prefix.pch"; sourceTree = "<group>"; };
 		FA7A643215D5B3A100456601 /* MP4Audio.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MP4Audio.1; sourceTree = "<group>"; };
+		FAAB4BA315D6E62E00470078 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAAB4BA415D6E62E00470078 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAB4BA515D6E62E00470078 /* AudioToolbox.framework in Frameworks */,
+				FAAB4BA615D6E62E00470078 /* CoreAudio.framework in Frameworks */,
 				FA7A642C15D5B3A100456601 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,9 +135,139 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA04432815D846F20028B5C4 /* ANMovie */ = {
+			isa = PBXGroup;
+			children = (
+				FA04432915D846F20028B5C4 /* ANMovie.h */,
+				FA04432A15D846F20028B5C4 /* ANMovie.m */,
+				FA04432B15D846F20028B5C4 /* Atoms */,
+				FA04435215D846F20028B5C4 /* Encoding */,
+				FA04435B15D846F20028B5C4 /* Metadata */,
+				FA04436215D846F20028B5C4 /* Streams */,
+			);
+			path = ANMovie;
+			sourceTree = "<group>";
+		};
+		FA04432B15D846F20028B5C4 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				FA04432C15D846F20028B5C4 /* ANFullAtom.h */,
+				FA04432D15D846F20028B5C4 /* ANFullAtom.m */,
+				FA04432E15D846F20028B5C4 /* ANMovieAtom.h */,
+				FA04432F15D846F20028B5C4 /* ANMovieAtom.m */,
+				FA04433015D846F20028B5C4 /* ANMovieAtomGroup.h */,
+				FA04433115D846F20028B5C4 /* ANMovieAtomGroup.m */,
+				FA04433215D846F20028B5C4 /* QT */,
+				FA04433715D846F20028B5C4 /* Specific */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		FA04433215D846F20028B5C4 /* QT */ = {
+			isa = PBXGroup;
+			children = (
+				FA04433315D846F20028B5C4 /* ANQTAtom.h */,
+				FA04433415D846F20028B5C4 /* ANQTAtom.m */,
+				FA04433515D846F20028B5C4 /* ANQTAtomContainer.h */,
+				FA04433615D846F20028B5C4 /* ANQTAtomContainer.m */,
+			);
+			path = QT;
+			sourceTree = "<group>";
+		};
+		FA04433715D846F20028B5C4 /* Specific */ = {
+			isa = PBXGroup;
+			children = (
+				FA04433815D846F20028B5C4 /* ANDataHandlerReference.h */,
+				FA04433915D846F20028B5C4 /* ANDataHandlerReference.m */,
+				FA04433A15D846F20028B5C4 /* ANTrackAtom.h */,
+				FA04433B15D846F20028B5C4 /* ANTrackAtom.m */,
+				FA04433C15D846F20028B5C4 /* ANTrackHeader.h */,
+				FA04433D15D846F20028B5C4 /* ANTrackHeader.m */,
+				FA04433E15D846F20028B5C4 /* Sample Table */,
+			);
+			path = Specific;
+			sourceTree = "<group>";
+		};
+		FA04433E15D846F20028B5C4 /* Sample Table */ = {
+			isa = PBXGroup;
+			children = (
+				FA04433F15D846F20028B5C4 /* ANChunkOffset64Atom.h */,
+				FA04434015D846F20028B5C4 /* ANChunkOffset64Atom.m */,
+				FA04434115D846F20028B5C4 /* ANChunkOffsetAtom.h */,
+				FA04434215D846F20028B5C4 /* ANChunkOffsetAtom.m */,
+				FA04434315D846F20028B5C4 /* ANSampleDescriptionAtom.h */,
+				FA04434415D846F20028B5C4 /* ANSampleDescriptionAtom.m */,
+				FA04434515D846F20028B5C4 /* ANSampleSizeAtom.h */,
+				FA04434615D846F20028B5C4 /* ANSampleSizeAtom.m */,
+				FA04434715D846F20028B5C4 /* ANSampleTableAtom.h */,
+				FA04434815D846F20028B5C4 /* ANSampleTableAtom.m */,
+				FA04434915D846F20028B5C4 /* ANSampleToChunkAtom.h */,
+				FA04434A15D846F20028B5C4 /* ANSampleToChunkAtom.m */,
+				FA04434B15D846F20028B5C4 /* ANSampleToChunkEntry.h */,
+				FA04434C15D846F20028B5C4 /* ANSampleToChunkEntry.m */,
+				FA04434D15D846F20028B5C4 /* Sample Descriptions */,
+			);
+			path = "Sample Table";
+			sourceTree = "<group>";
+		};
+		FA04434D15D846F20028B5C4 /* Sample Descriptions */ = {
+			isa = PBXGroup;
+			children = (
+				FA04434E15D846F20028B5C4 /* ANMP4ASampleDescription.h */,
+				FA04434F15D846F20028B5C4 /* ANMP4ASampleDescription.m */,
+				FA04435015D846F20028B5C4 /* ANSampleDescription.h */,
+				FA04435115D846F20028B5C4 /* ANSampleDescription.m */,
+			);
+			path = "Sample Descriptions";
+			sourceTree = "<group>";
+		};
+		FA04435215D846F20028B5C4 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				FA04435315D846F20028B5C4 /* ANEncodingAtom.h */,
+				FA04435415D846F20028B5C4 /* ANEncodingAtom.m */,
+				FA04435515D846F20028B5C4 /* ANEncodingAtomGroup.h */,
+				FA04435615D846F20028B5C4 /* ANEncodingAtomGroup.m */,
+				FA04435715D846F20028B5C4 /* ANEncodingFullAtom.h */,
+				FA04435815D846F20028B5C4 /* ANEncodingFullAtom.m */,
+				FA04435915D846F20028B5C4 /* ANEncodingFullAtomGroup.h */,
+				FA04435A15D846F20028B5C4 /* ANEncodingFullAtomGroup.m */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		FA04435B15D846F20028B5C4 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				FA04435C15D846F20028B5C4 /* ANMetadata.h */,
+				FA04435D15D846F20028B5C4 /* ANMetadata.m */,
+				FA04435E15D846F20028B5C4 /* ANMetadataImage.h */,
+				FA04435F15D846F20028B5C4 /* ANMetadataImage.m */,
+				FA04436015D846F20028B5C4 /* ANMetadataTrack.h */,
+				FA04436115D846F20028B5C4 /* ANMetadataTrack.m */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
+		FA04436215D846F20028B5C4 /* Streams */ = {
+			isa = PBXGroup;
+			children = (
+				FA04436315D846F20028B5C4 /* ANAtomReader.h */,
+				FA04436415D846F20028B5C4 /* ANAtomReader.m */,
+				FA04436515D846F20028B5C4 /* ANMovieStore.h */,
+				FA04436615D846F20028B5C4 /* ANMovieStore.m */,
+				FA04436715D846F20028B5C4 /* ANMovieStoreFile.h */,
+				FA04436815D846F20028B5C4 /* ANMovieStoreFile.m */,
+			);
+			path = Streams;
+			sourceTree = "<group>";
+		};
 		FA7A641C15D5B3A100456601 = {
 			isa = PBXGroup;
 			children = (
+				FA04432815D846F20028B5C4 /* ANMovie */,
+				FAAB4BA315D6E62E00470078 /* AudioToolbox.framework */,
+				FAAB4BA415D6E62E00470078 /* CoreAudio.framework */,
 				FA7A642D15D5B3A100456601 /* MP4Audio */,
 				FA7A642A15D5B3A100456601 /* Frameworks */,
 				FA7A642815D5B3A100456601 /* Products */,
@@ -140,6 +360,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7A642F15D5B3A100456601 /* main.m in Sources */,
+				FA04436915D846F20028B5C4 /* ANMovie.m in Sources */,
+				FA04436A15D846F20028B5C4 /* ANFullAtom.m in Sources */,
+				FA04436B15D846F20028B5C4 /* ANMovieAtom.m in Sources */,
+				FA04436C15D846F20028B5C4 /* ANMovieAtomGroup.m in Sources */,
+				FA04436D15D846F20028B5C4 /* ANQTAtom.m in Sources */,
+				FA04436E15D846F20028B5C4 /* ANQTAtomContainer.m in Sources */,
+				FA04436F15D846F20028B5C4 /* ANDataHandlerReference.m in Sources */,
+				FA04437015D846F20028B5C4 /* ANTrackAtom.m in Sources */,
+				FA04437115D846F20028B5C4 /* ANTrackHeader.m in Sources */,
+				FA04437215D846F20028B5C4 /* ANChunkOffset64Atom.m in Sources */,
+				FA04437315D846F20028B5C4 /* ANChunkOffsetAtom.m in Sources */,
+				FA04437415D846F20028B5C4 /* ANSampleDescriptionAtom.m in Sources */,
+				FA04437515D846F20028B5C4 /* ANSampleSizeAtom.m in Sources */,
+				FA04437615D846F20028B5C4 /* ANSampleTableAtom.m in Sources */,
+				FA04437715D846F20028B5C4 /* ANSampleToChunkAtom.m in Sources */,
+				FA04437815D846F20028B5C4 /* ANSampleToChunkEntry.m in Sources */,
+				FA04437915D846F20028B5C4 /* ANMP4ASampleDescription.m in Sources */,
+				FA04437A15D846F20028B5C4 /* ANSampleDescription.m in Sources */,
+				FA04437B15D846F20028B5C4 /* ANEncodingAtom.m in Sources */,
+				FA04437C15D846F20028B5C4 /* ANEncodingAtomGroup.m in Sources */,
+				FA04437D15D846F20028B5C4 /* ANEncodingFullAtom.m in Sources */,
+				FA04437E15D846F20028B5C4 /* ANEncodingFullAtomGroup.m in Sources */,
+				FA04437F15D846F20028B5C4 /* ANMetadata.m in Sources */,
+				FA04438015D846F20028B5C4 /* ANMetadataImage.m in Sources */,
+				FA04438115D846F20028B5C4 /* ANMetadataTrack.m in Sources */,
+				FA04438215D846F20028B5C4 /* ANAtomReader.m in Sources */,
+				FA04438315D846F20028B5C4 /* ANMovieStore.m in Sources */,
+				FA04438415D846F20028B5C4 /* ANMovieStoreFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +480,7 @@
 				FA7A643815D5B3A100456601 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
