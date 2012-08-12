@@ -31,10 +31,10 @@
 
 - (NSData *)encodeMetadata {
     ANEncodingAtom * handler = [self handlerAtom];
-    NSArray * itunesKeys = [self generateEvilAppleTags];
     NSArray * userKeys = [self generateTagsForKeys];
-    NSArray * listItems = [itunesKeys arrayByAddingObjectsFromArray:userKeys];
-    ANEncodingAtomGroup * ilist = [[ANEncodingAtomGroup alloc] initWithType:'ilst' subAtoms:listItems];
+    // NSArray * itunesKeys = [self generateEvilAppleTags];
+    //NSArray * listItems = [itunesKeys arrayByAddingObjectsFromArray:userKeys];
+    ANEncodingAtomGroup * ilist = [[ANEncodingAtomGroup alloc] initWithType:'ilst' subAtoms:userKeys];
     
     NSMutableData * data = [[NSMutableData alloc] init];
     [data appendData:[handler encode]];
