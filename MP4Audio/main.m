@@ -7,15 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CoreAudio/CoreAudio.h>
-#import <AudioToolbox/AudioToolbox.h>
 #import "ANMovie.h"
-#import "ANMP4ASampleDescription.h"
-
 #import "ANMetadata.h"
-
-AudioFileID openMP4AudioFile(NSString * path, ANMP4ASampleDescription * sampleDescription);
-void outputAudioDataForTrack(ANMovie * movie, NSString * path);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -27,10 +20,8 @@ int main(int argc, const char * argv[]) {
         path = [NSString stringWithUTF8String:argv[1]];
         
         ANMovie * movie = [[ANMovie alloc] initWithFile:path];
-        
         NSLog(@"outputting audio to file 'test.m4a'");
-        outputAudioDataForTrack(movie, @"test.m4a");
-        
+        [movie exportAACToFile:@"test.m4a"];
         [movie close];
         
         ANMetadata * metadata = [[ANMetadata alloc] init];
@@ -45,8 +36,4 @@ int main(int argc, const char * argv[]) {
         [movie close];
     }
     return 0;
-}
-
-void outputAudioDataForTrack(ANMovie * movie, NSString * path) {
-    [movie exportAACToFile:path];
 }

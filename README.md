@@ -1,1 +1,27 @@
-I will definitely be updating this later.
+MP4Audio
+========
+
+This nifty Objective-C library makes it *super easy* to extract the AAC audio track from an MP4 file and export it as an M4A file. In addition, MP4Audio provides a ridiculously simple interface for setting the metadata of an M4A file (i.e. artist, album, etc.). There's never been a simpler way to do these tasks from Objective-C!
+
+Usage
+=====
+
+Convert a video file to audio:
+
+    ANMovie * movie = [[ANMovie alloc] initWithFile:@"test.mp4"];
+    [movie exportAACToFile:@"test.m4a"];
+    [movie close];
+
+Set the metadata for an audio file:
+
+    NSData * jpegCover = ...;
+    ANMetadata * metadata = [[ANMetadata alloc] init];
+    metadata.title = @"Developers (feat. Steve Balmer)";
+    metadata.album = @"Greatest Hits";
+    metadata.year = @"2012";
+    metadata.artist = @"Alex Nichol (feat. Steve Balmer)";
+    metadata.trackNumber = [[ANMetadataTrack alloc] initWithTrackNumber:5 tracks:12];
+    metadata.albumCover = [[ANMetadataImage alloc] initWithImageData:jpegCover type:ANMetadataImageTypeJPG];
+    movie = [[ANMovie alloc] initWithFile:@"test.m4a"];
+    [movie setMovieMetadata:metadata];
+    [movie close];
