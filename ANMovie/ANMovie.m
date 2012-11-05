@@ -150,11 +150,11 @@
     destFormat.mFormatID = kAudioFormatLinearPCM;
     destFormat.mSampleRate = [sampleDescription sampleRateDouble];
     destFormat.mChannelsPerFrame = 2;
-    destFormat.mBitsPerChannel = sizeof(AudioUnitSampleType) * 16;
-    destFormat.mBytesPerPacket = sizeof(AudioUnitSampleType) * 2;
-    destFormat.mBytesPerFrame = sizeof(AudioUnitSampleType) * 2;
+    destFormat.mBitsPerChannel = sizeof(AudioSampleType) * 8;
+    destFormat.mBytesPerPacket = sizeof(AudioSampleType) * 2;
+    destFormat.mBytesPerFrame = sizeof(AudioSampleType) * 2;
     destFormat.mFramesPerPacket = 1;
-    destFormat.mFormatFlags = kAudioFormatFlagsAudioUnitCanonical;
+    destFormat.mFormatFlags = kAudioFormatFlagsCanonical;
     
     AudioConverterRef converter;
     OSStatus err = AudioConverterNew(&destFormat, &outputFormat, &converter);
