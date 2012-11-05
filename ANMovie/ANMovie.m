@@ -113,7 +113,7 @@
         packet.mVariableFramesInPacket = 0;
         OSStatus err = AudioFileWritePackets(output, FALSE, numBytes, &packet, packetIndex, &numPackets, [data bytes]);
         if (err != noErr) {
-            NSLog(@"Failed to encode with CoreAudio error %x", err);
+            NSLog(@"Failed to encode with CoreAudio error %x", (unsigned int)err);
         }
     }];
     

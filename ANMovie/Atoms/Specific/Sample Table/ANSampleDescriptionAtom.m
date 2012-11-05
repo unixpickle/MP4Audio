@@ -48,12 +48,12 @@
     NSUInteger offset = ([self contentOffset] + 8);
     NSUInteger maxOffset = [self contentOffset] + [self contentLength];
     for (NSUInteger i = 0; i < numberOfEntries; i++) {
-        id description = [ANSampleDescription sampleDescriptionWithStore:store
-                                                                 atIndex:offset
-                                                               maxLength:(maxOffset - offset)];
-        if (!description) return NO;
-        [mSampleDescriptions addObject:description];
-        offset = [description contentOffset] + [description contentLength];
+        ANSampleDescription * desc = [ANSampleDescription sampleDescriptionWithStore:store
+                                                                             atIndex:offset
+                                                                           maxLength:(maxOffset - offset)];
+        if (!desc) return NO;
+        [mSampleDescriptions addObject:desc];
+        offset = [desc contentOffset] + [desc contentLength];
     }
     
     sampleDescriptions = [[NSArray alloc] initWithArray:mSampleDescriptions];

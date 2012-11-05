@@ -25,7 +25,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"<ANSampleToChunkEntry %u %u %u>", firstChunk, samplesPerChunk, sampleDescriptionID];
+    return [NSString stringWithFormat:@"<ANSampleToChunkEntry %u %u %u>", (unsigned int)firstChunk, (unsigned int)samplesPerChunk, (unsigned int)sampleDescriptionID];
 }
 
 @end
