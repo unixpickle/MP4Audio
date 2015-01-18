@@ -1,3 +1,10 @@
+Disclaimer
+==========
+
+I have not worked on this project in a long time, and I never tested it on a wide variety of audio files. If you are having problems using it, I would highly recommend looking for a different library.
+
+With that said, if you find a bug and figure out how to fix it, I will be willing to accept a pull request.
+
 MP4Audio
 ========
 
